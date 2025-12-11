@@ -31,4 +31,9 @@ public class EvenementTests
 
         Assert.Equal(2, evenement.Foodtrucks.Count);
     }
+    [Fact] 
+    public void falendetest()
+    {
+        Assert.True(false);
+    }
 }
